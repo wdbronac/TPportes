@@ -25,7 +25,7 @@ int main(int agrc, char* argv[]) {
   gate::notify(agenda, a, false, 2.0);
   gate::____();
   gate::flush(agenda);
-  gate::____();
+gate::____();
 
   std::cout << "Current time : " << gate::now(agenda) << std::endl;
 
